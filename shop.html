@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Store & PWA Showcase | Nairovexia Technologies Ltd</title>
+  <meta name="description" content="Discover and launch production-ready PWAs engineered by Nairovexia, including the live Mwanachama SACCO & Chama PWA." />
+  <link rel="canonical" href="https://nairovexia.vercel.app/shop.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    body { background-color: #020617; color: #f8fafc; font-family: var(--font-sans); }
+    .emerald-glow { box-shadow: 0 0 50px -15px rgba(16, 185, 129, 0.25); }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/85 backdrop-blur-md">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl border border-emerald-500/40 bg-slate-900 shadow-inner">
+          <svg class="h-6 w-6 text-emerald-400" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 24V8L14.5 24V8" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.5 8L27 24M27 8L18.5 24" stroke="#34d399" stroke-width="2.6" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="flex flex-col">
+          <span class="text-lg font-extrabold tracking-tight text-white">NAIROVEXIA</span>
+          <span class="font-mono text-[10px] tracking-widest text-emerald-400 uppercase">Technologies Ltd</span>
+        </div>
+      </a>
+      <nav class="hidden items-center gap-8 md:flex">
+        <a href="index.html" class="text-sm font-medium text-slate-300 hover:text-emerald-400">Home</a>
+        <a href="services.html" class="text-sm font-medium text-slate-300 hover:text-emerald-400">Services</a>
+        <a href="works.html" class="text-sm font-medium text-slate-300 hover:text-emerald-400">Architecture & Works</a>
+        <a href="shop.html" class="text-sm font-semibold text-emerald-400">App Store</a>
+        <a href="pricing.html" class="text-sm font-medium text-slate-300 hover:text-emerald-400">Pricing (KES)</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="contact.html" class="rounded-lg bg-emerald-500 px-4 py-2.5 text-sm font-semibold text-slate-950 hover:bg-emerald-400">Start a Project</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="py-16 sm:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <span class="font-mono text-xs font-semibold tracking-wider text-emerald-400 uppercase">Nairovexia App Store & PWA Showcase</span>
+        <h1 class="mt-2 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+          Ready-to-Deploy PWAs.
+        </h1>
+        <p class="mt-4 text-lg text-slate-300">
+          Explore our flagship production applications. Install instantly on any mobile or desktop device with offline resilience.
+        </p>
+      </div>
+
+      <!-- Product Showcase Card -->
+      <div class="mt-16 grid gap-8 lg:grid-cols-1">
+        <div class="emerald-glow rounded-3xl border border-emerald-500/40 bg-slate-900 p-8 sm:p-12">
+          <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+            <div class="max-w-2xl">
+              <div class="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3.5 py-1.5 mb-4">
+                <span class="h-2 w-2 animate-pulse rounded-full bg-emerald-400"></span>
+                <span class="font-mono text-xs font-semibold text-emerald-300">FLAGSHIP LIVE PRODUCT</span>
+              </div>
+              <h2 class="text-3xl font-extrabold text-white">Mwanachama SACCO & Chama PWA</h2>
+              <p class="mt-4 text-base leading-relaxed text-slate-300">
+                The definitive offline-first financial ledger for Kenyan investment groups, welfare societies, and SACCOs. Features automated M-Pesa SMS parsing, reducing-balance loan calculators, unique member ID tracking, and instant PDF statement exports.
+              </p>
+              <div class="mt-6 flex flex-wrap gap-3">
+                <span class="rounded-md border border-slate-800 bg-slate-950 px-3 py-1 font-mono text-xs text-emerald-400">Offline SQLite</span>
+                <span class="rounded-md border border-slate-800 bg-slate-950 px-3 py-1 font-mono text-xs text-slate-300">M-Pesa SMS Parser</span>
+                <span class="rounded-md border border-slate-800 bg-slate-950 px-3 py-1 font-mono text-xs text-slate-300">Loan Amortization</span>
+              </div>
+            </div>
+            
+            <div class="flex flex-col gap-4 min-w-[240px]">
+              <a href="https://mwanachamaapp.vercel.app/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 rounded-xl bg-emerald-500 px-6 py-4 text-center text-base font-bold text-slate-950 hover:bg-emerald-400 shadow-lg shadow-emerald-500/20">
+                <span>Launch Mwanachama</span>
+                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+              <span class="text-center font-mono text-xs text-slate-400">Hosted securely at mwanachamaapp.vercel.app</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-slate-800/80 bg-slate-950 py-12 text-center text-xs text-slate-500">
+    <p>&copy; <span id="yr"></span> Nairovexia Technologies Ltd. Nairobi, Kenya.</p>
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
