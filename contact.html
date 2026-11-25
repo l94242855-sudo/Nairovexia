@@ -6,6 +6,7 @@
   <title>Contact Nairovexia Technologies Ltd | Nairobi Software Studio</title>
   <meta name="description" content="Get in touch with Lawrence Otieno at Nairovexia Technologies Ltd in Nairobi for custom software, M-Pesa integrations, and KRA eTIMS." />
   <link rel="canonical" href="https://nairovexia.vercel.app/contact.html" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -18,18 +19,13 @@
     body { background-color: #020617; color: #f8fafc; font-family: var(--font-sans); }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 antialiased">
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-emerald-500/30 selection:text-emerald-300">
 
   <!-- Header -->
   <header class="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/85 backdrop-blur-md">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-      <a href="index.html" class="flex items-center gap-3">
-        <div class="flex h-10 w-10 items-center justify-center rounded-xl border border-emerald-500/40 bg-slate-900 shadow-inner">
-          <svg class="h-6 w-6 text-emerald-400" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5 24V8L14.5 24V8" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M18.5 8L27 24M27 8L18.5 24" stroke="#34d399" stroke-width="2.6" stroke-linecap="round"/>
-          </svg>
-        </div>
+      <a href="index.html" class="group flex items-center gap-3 focus:outline-none">
+        <img src="assets/logo.png" alt="Nairovexia Logo" class="h-10 w-10 rounded-xl object-cover border border-cyan-500/40 shadow-lg shadow-cyan-500/20 transition-transform duration-300 group-hover:scale-105" />
         <div class="flex flex-col">
           <span class="text-lg font-extrabold tracking-tight text-white">NAIROVEXIA</span>
           <span class="font-mono text-[10px] tracking-widest text-emerald-400 uppercase">Technologies Ltd</span>
@@ -45,6 +41,18 @@
       <div class="hidden md:block">
         <a href="contact.html" class="rounded-lg bg-emerald-500 px-4 py-2.5 text-sm font-semibold text-slate-950 hover:bg-emerald-400">Start a Project</a>
       </div>
+      <button id="mobile-menu-btn" type="button" class="inline-flex items-center justify-center rounded-lg border border-slate-800 bg-slate-900 p-2 text-slate-300 md:hidden" aria-expanded="false">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-slate-800 bg-slate-950 px-4 pt-3 pb-6 md:hidden">
+      <div class="flex flex-col space-y-2">
+        <a href="index.html" class="rounded-lg px-3 py-2 text-sm font-medium text-slate-300">Home</a>
+        <a href="services.html" class="rounded-lg px-3 py-2 text-sm font-medium text-slate-300">Services</a>
+        <a href="works.html" class="rounded-lg px-3 py-2 text-sm font-medium text-slate-300">Architecture & Works</a>
+        <a href="shop.html" class="rounded-lg px-3 py-2 text-sm font-medium text-slate-300">App Store</a>
+        <a href="pricing.html" class="rounded-lg px-3 py-2 text-sm font-medium text-slate-300">Pricing (KES)</a>
+      </div>
     </div>
   </header>
 
@@ -53,84 +61,15 @@
       <div class="grid gap-12 lg:grid-cols-12">
         <!-- Left Info -->
         <div class="lg:col-span-5">
-          <span class="font-mono text-xs font-semibold tracking-wider text-emerald-400 uppercase">Get in Touch</span>
+          <span class="font-mono text-xs font-semibold tracking-wider text-emerald-400 uppercase">Direct Engineering Line</span>
           <h1 class="mt-2 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
             Let's Build Your System.
           </h1>
           <p class="mt-4 text-slate-300">
-            Reach out directly to founder Lawrence Otieno in Nairobi for technical scoping, M-Pesa API integration, or PWA development.
+            Reach out directly to founder Lawrence Otieno in Nairobi for technical scoping, M-Pesa Daraja integration, or Mwanachama SACCO onboarding.
           </p>
 
           <div class="mt-8 space-y-4">
-            <div class="flex items-center gap-3 text-sm text-slate-300">
-              <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 border border-slate-800 text-emerald-400 font-mono">📍</span>
-              <div>
-                <p class="font-semibold text-white">Location</p>
-                <p class="text-slate-400">Nairobi, Kenya</p>
-              </div>
-            </div>
-
-            <div class="flex items-center gap-3 text-sm text-slate-300">
-              <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 border border-slate-800 text-emerald-400 font-mono">💬</span>
-              <div>
-                <p class="font-semibold text-white">Direct WhatsApp / Call</p>
-                <a href="https://wa.me/254706606816" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">0706 606 816</a>
-              </div>
-            </div>
-
-            <div class="flex items-center gap-3 text-sm text-slate-300">
-              <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 border border-slate-800 text-emerald-400 font-mono">✉️</span>
-              <div>
-                <p class="font-semibold text-white">Email</p>
-                <a href="mailto:l94242855@gmail.com" class="text-emerald-400 hover:underline">l94242855@gmail.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Form -->
-        <div class="lg:col-span-7">
-          <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-8">
-            <form action="https://formspree.io/f/xgakrgwb" method="POST" class="space-y-6">
-              <div>
-                <label for="name" class="block text-sm font-medium text-slate-300">Your Full Name</label>
-                <input type="text" id="name" name="name" required class="mt-2 w-full rounded-xl border border-slate-800 bg-slate-950 px-4 py-3 text-white placeholder-slate-600 focus:border-emerald-500 focus:outline-none" placeholder="Lawrence Otieno" />
-              </div>
-
-              <div>
-                <label for="email" class="block text-sm font-medium text-slate-300">Email Address</label>
-                <input type="email" id="email" name="email" required class="mt-2 w-full rounded-xl border border-slate-800 bg-slate-950 px-4 py-3 text-white placeholder-slate-600 focus:border-emerald-500 focus:outline-none" placeholder="lawrence@company.co.ke" />
-              </div>
-
-              <div>
-                <label for="service" class="block text-sm font-medium text-slate-300">Project Type</label>
-                <select id="service" name="service" class="mt-2 w-full rounded-xl border border-slate-800 bg-slate-950 px-4 py-3 text-white focus:border-emerald-500 focus:outline-none">
-                  <option>Mwanachama PWA Deployment</option>
-                  <option>Safaricom Daraja (M-Pesa) Integration</option>
-                  <option>KRA eTIMS VSCU Integration</option>
-                  <option>Custom Offline-First PWA / App</option>
-                  <option>Enterprise Retainer</option>
-                </select>
-              </div>
-
-              <div>
-                <label for="message" class="block text-sm font-medium text-slate-300">Project Scope & Details</label>
-                <textarea id="message" name="message" rows="4" required class="mt-2 w-full rounded-xl border border-slate-800 bg-slate-950 px-4 py-3 text-white placeholder-slate-600 focus:border-emerald-500 focus:outline-none" placeholder="Describe your system requirements, timeline, and current pain points..."></textarea>
-              </div>
-
-              <button type="submit" class="w-full rounded-xl bg-emerald-500 px-6 py-4 text-center text-sm font-bold text-slate-950 hover:bg-emerald-400">
-                Send Project Inquiry &rarr;
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer class="border-t border-slate-800/80 bg-slate-950 py-12 text-center text-xs text-slate-500">
-    <p>&copy; <span id="yr"></span> Nairovexia Technologies Ltd. Nairobi, Kenya.</p>
-  </footer>
-  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
-</body>
-</html>
+            <div class="flex items-center gap-3.5 rounded-xl border border-slate-800/80 bg-slate-900/50 p-4 text-sm text-slate-300">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-emerald-500/20 bg-emerald-500/10 text-emerald-400">
+                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1
