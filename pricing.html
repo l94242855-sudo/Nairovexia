@@ -6,6 +6,145 @@
   <title>Transparent KES Pricing Tiers | Nairovexia Technologies Ltd</title>
   <meta name="description" content="Clear, project-based and retainer pricing in Kenyan Shillings (KES) for custom software, M-Pesa integrations, and SACCO PWAs." />
   <link rel="canonical" href="https://nairovexia.vercel.app/pricing.html" />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    body { background-color: #020617; color: #f8fafc; font-family: var(--font-sans); }
+    .emerald-glow { box-shadow: 0 0 50px -15px rgba(16, 185, 129, 0.25); }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+
+  <header class="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/85 backdrop-blur-md">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="logo.png" alt="Nairovexia Logo" class="h-10 w-10 rounded-xl object-cover border border-cyan-500/40 shadow-lg shadow-cyan-500/20" />
+        <div class="flex flex-col">
+          <span class="text-lg font-extrabold tracking-tight text-white">NAIROVEXIA</span>
+          <span class="font-mono text-[10px] tracking-widest text-emerald-400 uppercase">Technologies Ltd</span>
+        </div>
+      </a>
+      <nav class="hidden items-center gap-8 md:flex">
+        <a href="index.html" class="text-sm font-medium text-slate-300 hover:text-emerald-400">Home</a>
+        <a href="services.html" class="text-sm font-medium text-slate-300 hover:text-emerald-400">Services</a>
+        <a href="works.html" class="text-sm font-medium text-slate-300 hover:text-emerald-400">Architecture & Works</a>
+        <a href="shop.html" class="text-sm font-medium text-slate-300 hover:text-emerald-400">App Store</a>
+        <a href="pricing.html" class="text-sm font-semibold text-emerald-400">Pricing (KES)</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="contact.html" class="rounded-lg bg-emerald-500 px-4 py-2.5 text-sm font-semibold text-slate-950 hover:bg-emerald-400">Start a Project</a>
+      </div>
+      <button id="mobile-menu-btn" type="button" class="inline-flex items-center justify-center rounded-lg border border-slate-800 bg-slate-900 p-2 text-slate-300 md:hidden">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-slate-800 bg-slate-950 px-4 pt-3 pb-6 md:hidden">
+      <div class="flex flex-col space-y-2">
+        <a href="index.html" class="rounded-lg px-3 py-2 text-sm font-medium text-slate-300">Home</a>
+        <a href="services.html" class="rounded-lg px-3 py-2 text-sm font-medium text-slate-300">Services</a>
+        <a href="works.html" class="rounded-lg px-3 py-2 text-sm font-medium text-slate-300">Architecture & Works</a>
+        <a href="shop.html" class="rounded-lg px-3 py-2 text-sm font-medium text-slate-300">App Store</a>
+        <a href="pricing.html" class="rounded-lg bg-slate-900 px-3 py-2 text-sm font-semibold text-emerald-400">Pricing (KES)</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="py-16 sm:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto">
+        <span class="font-mono text-xs font-semibold tracking-wider text-emerald-400 uppercase">Transparent Investment</span>
+        <h1 class="mt-2 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+          Predictable KES Pricing Tiers.
+        </h1>
+        <p class="mt-4 text-lg text-slate-300">
+          No hidden hourly billing or surprise invoices. Clear milestones, complete IP handover, and dedicated maintenance agreements.
+        </p>
+      </div>
+
+      <div class="mt-16 grid gap-8 lg:grid-cols-3">
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-8 flex flex-col justify-between">
+          <div>
+            <span class="font-mono text-xs font-semibold text-emerald-400 uppercase">MVP / Integration</span>
+            <h2 class="mt-3 text-2xl font-bold text-white">Daraja or eTIMS Sprint</h2>
+            <p class="mt-2 text-sm text-slate-400">Ideal for businesses needing a robust single API integration added to their existing codebase.</p>
+            <div class="mt-6 font-mono text-3xl font-extrabold text-white">KES 85,000 <span class="text-xs font-normal text-slate-400">/ project</span></div>
+            <ul class="mt-6 space-y-3 text-sm text-slate-300">
+              <li class="flex items-center gap-2">✓ Safaricom Daraja STK/C2B setup</li>
+              <li class="flex items-center gap-2">✓ KRA eTIMS VSCU connection</li>
+              <li class="flex items-center gap-2">✓ Webhook security & logging</li>
+              <li class="flex items-center gap-2">✓ 2 Weeks delivery timeline</li>
+            </ul>
+          </div>
+          <div class="mt-8">
+            <a href="contact.html?plan=integration" class="block w-full rounded-xl border border-slate-700 bg-slate-800 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-slate-700">Get Started</a>
+          </div>
+        </div>
+
+        <div class="emerald-glow relative rounded-2xl border border-emerald-500/50 bg-slate-900 p-8 flex flex-col justify-between">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-emerald-500 px-3 py-1 font-mono text-xs font-bold text-slate-950 uppercase">Most Popular</div>
+          <div>
+            <span class="font-mono text-xs font-semibold text-emerald-400 uppercase">Full Custom PWA</span>
+            <h2 class="mt-3 text-2xl font-bold text-white">Fintech & SACCO Studio</h2>
+            <p class="mt-2 text-sm text-slate-400">Complete custom PWA with offline SQLite sync, M-Pesa reconciliation, and loan engines.</p>
+            <div class="mt-6 font-mono text-3xl font-extrabold text-white">KES 220,000 <span class="text-xs font-normal text-slate-400">/ MVP</span></div>
+            <ul class="mt-6 space-y-3 text-sm text-slate-300">
+              <li class="flex items-center gap-2 text-white font-semibold">✓ Full offline-first PWA frontend</li>
+              <li class="flex items-center gap-2">✓ Automated M-Pesa SMS/API parsing</li>
+              <li class="flex items-center gap-2">✓ Member ID & loan ledger engine</li>
+              <li class="flex items-center gap-2">✓ 4 Weeks delivery timeline</li>
+              <li class="flex items-center gap-2">✓ 3 Months free maintenance</li>
+            </ul>
+          </div>
+          <div class="mt-8">
+            <a href="contact.html?plan=pwa" class="block w-full rounded-xl bg-emerald-500 px-4 py-3 text-center text-sm font-bold text-slate-950 hover:bg-emerald-400">Deploy Your System</a>
+          </div>
+        </div>
+
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-8 flex flex-col justify-between">
+          <div>
+            <span class="font-mono text-xs font-semibold text-emerald-400 uppercase">Enterprise Retainer</span>
+            <h2 class="mt-3 text-2xl font-bold text-white">Dedicated Engineering</h2>
+            <p class="mt-2 text-sm text-slate-400">Ongoing software architecture, scaling, security audits, and dedicated engineering capacity.</p>
+            <div class="mt-6 font-mono text-3xl font-extrabold text-white">KES 120,000 <span class="text-xs font-normal text-slate-400">/ month</span></div>
+            <ul class="mt-6 space-y-3 text-sm text-slate-300">
+              <li class="flex items-center gap-2">✓ Priority bug fixes & 99.9% uptime SLA</li>
+              <li class="flex items-center gap-2">✓ Dedicated senior architect (Lawrence Otieno)</li>
+              <li class="flex items-center gap-2">✓ Regular security & KRA compliance updates</li>
+            </ul>
+          </div>
+          <div class="mt-8">
+            <a href="contact.html?plan=retainer" class="block w-full rounded-xl border border-slate-700 bg-slate-800 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-slate-700">Secure Retainer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-slate-800/80 bg-slate-950 py-12 text-center text-xs text-slate-500">
+    <p>&copy; <span id="yr"></span> Nairovexia Technologies Ltd &bull; Nairobi, Kenya &bull; <a href="tel:+254706606816" class="text-slate-400 hover:text-emerald-400">0706 606 816</a> &bull; <a href="mailto:l94242855@gmail.com" class="text-slate-400 hover:text-emerald-400">l94242855@gmail.com</a></p>
+  </footer>
+  <script>
+    document.getElementById('yr').textContent = new Date().getFullYear();
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transparent KES Pricing Tiers | Nairovexia Technologies Ltd</title>
+  <meta name="description" content="Clear, project-based and retainer pricing in Kenyan Shillings (KES) for custom software, M-Pesa integrations, and SACCO PWAs." />
+  <link rel="canonical" href="https://nairovexia.vercel.app/pricing.html" />
   <link rel="icon" type="image/png" href="assets/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
