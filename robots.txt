@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nairovexia.vercel.app/sitemap.xml
+Sitemap: https://nairovexiaco.vercel.app/sitemap.xml
